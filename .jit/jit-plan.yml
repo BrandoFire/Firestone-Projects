@@ -10,12 +10,4 @@ tags: []
 items:
   - name: Scan code for hard-coded secrets
     uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
-  - name: |
-      Identify sensitive data
-    uses: >-
-      jitsecurity-controls/jit-plans/items/sensitive_data/item-sensitive-data-identify.yml@latest
-    input:
-      status: passed
-      note: |
-        HIPPA
 
