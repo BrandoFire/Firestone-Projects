@@ -1,5 +1,6 @@
 name: My plan
 level: beginner
+update_id: 85f8a64c-7e5a-4b4b-b518-2082688839b7
 author: Jit
 version: 0.1
 owners:
@@ -10,11 +11,9 @@ tags: []
 items:
   - name: Scan code for hard-coded secrets
     uses: jitsecurity-controls/jit-plans/items/code/item-secret-detection.yml@latest
-  - name: |
-      Identify sensitive data
-    uses: >-
-      jitsecurity-controls/jit-plans/items/sensitive_data/item-sensitive-data-identify.yml@latest
-    input:
-      status: passed
-      note: Hiipa
+  - name: Identify sensitive data
 
+    uses: jitsecurity-controls/jit-plans/items/sensitive_data/item-sensitive-data-identify.yml@latest
+    input:
+      note: Hiipa
+      status: passed
